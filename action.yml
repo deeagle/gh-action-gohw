@@ -1,0 +1,9 @@
+name: "gh-action-gohw"
+description: "hello world example for composite action"
+
+runs:
+  using: composite
+  steps:
+    - name: run hello world
+      run: go run main.go
+      shell: bash
