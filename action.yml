@@ -1,5 +1,6 @@
 name: "gh-action-gohw"
 description: "hello world example for composite action"
+author: deeagle
 
 runs:
   using: composite
@@ -7,3 +8,8 @@ runs:
     - name: run hello world
       run: go run main.go
       shell: bash
+
+# Ref: https://haya14busa.github.io/github-action-brandings/
+branding:
+  icon: 'check'
+  color: 'blue'
